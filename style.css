@@ -17,7 +17,7 @@ h3{
 
 .flexible{
     display: flex;
-    padding-bottom: 150px;
+    padding-bottom: 100px;
 }
 
 .half-width{
@@ -75,4 +75,9 @@ h3{
 
 footer{
     text-align: center;
+}
+
+.Sec3BGI{
+    background-image: url(Images/exp-bg.png);
+    background-repeat: no-repeat;
 }
