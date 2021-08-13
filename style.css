@@ -17,25 +17,29 @@ h3{
 
 .flexible{
     display: flex;
-    background-image: url(Images/top-banner.png) ;
-    background-repeat: no-repeat;
+    
 }
 
 .half-width{
     width: 50%;
-    padding: 5%;
+    padding-left: 5%;
 }
 
 .half-width img{
-    width: 120%;
-    padding-right: 10%;
+    width: 100%;
+    padding: 10%;
 }
 
 .Gradient{
     text-decoration: none;
     background-image: linear-gradient(blue,cyan);
     padding: 10px 40px;
-    border-radius: 10%;
+    border-radius: 5%;
     font-weight: 700;
     color:white;
+}
+
+.section1BGI{
+    background-image: url(Images/top-banner.png) ;
+    background-repeat: no-repeat;
 }
