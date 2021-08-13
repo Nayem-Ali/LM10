@@ -4,11 +4,11 @@ body{
 }
 
 h1{
-    font-size: 50px;
+    font-size: 40px;
 }
 
 h3{
-    font-size: 40px
+    font-size: 30px
 }
 
 .Colors{
@@ -17,24 +17,25 @@ h3{
 
 .flexible{
     display: flex;
-    
+    padding-bottom: 150px;
 }
 
 .half-width{
-    width: 50%;
-    padding-left: 5%;
+    width: 60%;
+    padding-left: 10%;
 }
 
 .half-width img{
     width: 100%;
-    padding: 10%;
+    padding-top: 15%;
 }
+
 
 .Gradient{
     text-decoration: none;
     background-image: linear-gradient(blue,cyan);
     padding: 10px 40px;
-    border-radius: 5%;
+    border-radius: 5px;
     font-weight: 700;
     color:white;
 }
@@ -42,4 +43,36 @@ h3{
 .section1BGI{
     background-image: url(Images/top-banner.png) ;
     background-repeat: no-repeat;
+}
+
+.section2BGI{
+    background-image: url(Images/dream-bg.png);
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+.Shadow{
+    width: 40%;
+    margin-left: 5%;
+    margin-left: 5%;
+    padding-left: 15px;
+    border-radius: 5px;
+    box-shadow: 10px 5px 5px rgb(49, 47, 47);
+}
+
+#Nation{
+    border-left: 5px solid;
+    border-image: linear-gradient(blue, red);
+    border-image-slice: 1;
+
+}
+
+#Club{
+    border-left: 5px solid;
+    border-image: linear-gradient(rgb(69, 226, 6),rgb(12, 171, 192));
+    border-image-slice: 1;
+}
+
+footer{
+    text-align: center;
 }
